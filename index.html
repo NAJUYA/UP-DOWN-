@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="main">
+    <div class="container">
         <div class="head">
             <div class="head-text">NAJUYA</div>
             <div class="head-text"><숫자를 맞춰봐></div>
@@ -17,9 +18,15 @@
 
         <div class="foot">
             <div id="result-area" class="foot-text foot-text2">과연 정답은?</div>
-            <div id="chance" class="foot-text">남은 기회: 5번</div>
-            <input type="number" id="user-Input" placeholder="1부터 100까지 숫자 중 골라봐!"/>
-            <button id="go-button">GO!</button>
+            <div id="chance" class="foot-text foot-text2">남은 기회: 5번</div>
+            <div class="row location">
+                <div>
+                    <input type="number" id="user-Input" placeholder="1부터 100까지 숫자 중 골라봐!"/>
+                </div>
+                <div>
+                    <button id="go-button">GO!</button>
+                </div>
+            </div>
             <div><button id="reset-button">RESET</button></div>
         </div>
     </div>
