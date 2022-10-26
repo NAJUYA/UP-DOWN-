@@ -1,5 +1,8 @@
 # 숫자 맞추기 게임
 ![NAJUYA 숫자맞추기](https://user-images.githubusercontent.com/115806959/197585606-45fd55de-3ff3-4388-a2df-8070505166e2.jpg)
+
+https://ephemeral-cajeta-b22f17.netlify.app/
+
 숫자 하나를 두고 USER가 UP과 DOWN이라는 힌트를 통해 추측하며 일정 횟수동안 숫자를 맞추는 게임입니다.
 
 ## 기능
